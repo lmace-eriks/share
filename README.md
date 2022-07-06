@@ -1,3 +1,3 @@
-# Share
+# ShareThisContent
 
 App Description

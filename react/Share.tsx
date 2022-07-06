@@ -4,28 +4,17 @@ import React, { ReactChildren } from 'react';
 // Styles
 import styles from "./styles.css";
 
-interface ShareProps {
+interface ShareThisContentProps {
 
 }
 
-const Share: StorefrontFunctionComponent<ShareProps> = ({ link, imgSrc, text, newTab }) => {
-
-  if (!imgSrc) return <></>
-  if (!link) return <></>
-
+const ShareThisContent: StorefrontFunctionComponent<ShareThisContentProps> = ({ }) => {
   return (
-    <div className={styles.buttonContainer}>
-      <div className={styles.buttonWrapper}>
-        <a href={link} target={newTab ? "_blank" : "_self"} className={styles.button}>
-          {text && <p className={styles.buttonText}>{text}</p>}
-          <img src={imgSrc} alt="" className={styles.buttonImage} />
-        </a>
-      </div>
-    </div>
+    <h1>Hello</h1>
   )
 }
 
-Share.schema = {
+ShareThisContent.schema = {
   title: 'Guide Button',
   description: '',
   type: 'object',
@@ -52,4 +41,4 @@ Share.schema = {
   }
 }
 
-export default Share;
+export default ShareThisContent;

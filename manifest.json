@@ -1,9 +1,9 @@
 {
   "vendor": "eriksbikeshop",
-  "name": "share",
+  "name": "sharethiscontent",
   "version": "1.0.0",
-  "title": "Share",
-  "description": "Share component",
+  "title": "ShareThisContent",
+  "description": "ShareThisContent component",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",
