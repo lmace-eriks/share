@@ -1,0 +1,6 @@
+{
+  "share": {
+    "component": "Share",
+    "composition": "children"
+  }
+}
